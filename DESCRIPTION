@@ -6,7 +6,7 @@ Description: R bindings of the Google Compact Encoding Detection library
   a source buffer of raw text bytes and probabilistically determines the
   most likely encoding for that text. It was designed with accuracy,
   robustness, small size, and speed in mind.
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
   person(given = "Artem",
          family = "Klevtsov",
@@ -33,11 +33,11 @@ Encoding: UTF-8
 NeedsCompilation: yes
 ByteCompile: yes
 RoxygenNote: 7.0.2
-SystemRequirements: C++11
-Packaged: 2020-01-10 06:31:12.922 UTC; unikum
+SystemRequirements: C++11, GNU make
+Packaged: 2020-01-14 08:26:31.034 UTC; unikum
 Author: Artem Klevtsov [aut, cre] (<https://orcid.org/0000-0003-0492-6647>),
   Philipp Upravitelev [ctb],
   Google Inc. [cph]
 Maintainer: Artem Klevtsov <a.a.klevtsov@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-01-13 23:00:02 UTC
+Date/Publication: 2020-01-14 09:20:06 UTC
